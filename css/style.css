@@ -111,12 +111,13 @@ border-width: 2px;
 }
 
 .intro .description h2 {
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   color:black;
   margin-bottom: 20px;
   padding-bottom: 0px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 500;
+  font-family: 'Good Times Rg', sans-serif;
+                                                
+  font-weight: 400;
   
 }
 
@@ -163,6 +164,8 @@ border-width: 2px;
   color: #ab8634;
   margin-bottom: 10px;
   font-weight: 200;
+  font-family: 'Good Times Rg', sans-serif;
+                                                
   
 }
 .about .description-about h2 {
@@ -219,6 +222,8 @@ background-image: linear-gradient(-45deg, #686a6a 0%, black 20%, #686a6a 51%, bl
   margin-bottom: 20px;
   font-weight: 200;
 text-align: center;
+font-family: 'Good Times Rg', sans-serif;
+                                                
 }
 .services .serv-cont h2{
   font-size: 35px;
@@ -620,7 +625,7 @@ margin: 0;
   }
 
   .footer-img{
-    width: 50%;
+    width: 45%;
   }
 }
 
