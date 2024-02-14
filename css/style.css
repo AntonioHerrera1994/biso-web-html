@@ -1,0 +1,678 @@
+:root {
+  --mainColor: #f5f8fd;
+  --color1: #000000;
+  --color2: #000000;
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* RESET */
+ul {
+  list-style: none;
+}
+a {
+  color: var(--color1);
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+    /* GOLBAL CLASSES */
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-right: 75px;
+  padding-left: 75px;
+}
+
+.wrapper {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Start Header */
+.biso-header{
+
+  
+ padding-bottom: 0px;
+ margin-left:-8px;
+ margin-right:-8px;
+ position: sticky;
+top: 0px;
+background-color: #ffffff;
+z-index: 1;
+}
+.header-cont{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-right: 50px;
+  padding-left: 50px;
+  
+  
+}
+
+.header-grid{
+  padding: 2rem;
+  display:grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+      gap: 2rem;
+}
+
+.header-img{
+  width: 35%;
+}
+
+.buttonhead{
+  text-align: center;
+border: solid;
+border-color: #ab8634;
+border-width: 2px;
+  padding:14px;
+  border-radius: 15px;
+  margin-left: 185px;
+  margin-right: 185px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+/* End Header */
+
+/* Start Intro */
+.intro {
+  padding-bottom: 60px;
+  margin-top: 0px;
+  background-color: #fdfdfd;
+
+}
+
+.intro video {
+  width: 50%;
+}
+
+/*.intro img {
+  width: 400px;
+  margin-right: 80px;
+ 
+} */
+
+.intro .description {
+  margin-right: 40px;
+}
+
+.intro .description h2 {
+  font-size: 4.5rem;
+  color:black;
+  margin-bottom: 20px;
+  padding-bottom: 0px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+  
+}
+
+/*.scroller {
+  height: 6rem;
+  line-height: 5.3rem;
+  position: relative;
+  overflow: hidden;
+  width: 28rem;
+  
+}
+.scroller > span {
+  font-size: 4rem;
+  position: absolute;
+  top: 0;
+  animation: slide 11s infinite;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+  
+} */
+
+.intro .description h3 {
+  color: #000000;
+  font-weight: 200;
+  font-size: 1.4rem;
+  padding-bottom: 25px;
+
+}
+
+/* End Intro */
+
+/* start about*/
+
+.about{
+   padding-bottom: 60px;
+}
+.about .description-about {
+
+  margin-right: 0px;
+}
+
+.about .description-about h4 {
+  font-size: 14px;
+  color: #ab8634;
+  margin-bottom: 10px;
+  font-weight: 200;
+  
+}
+.about .description-about h2 {
+  font-size: 38px;
+  color: var(--color1);
+  margin-bottom: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  word-spacing: 7px;
+  letter-spacing: 2px;
+}
+
+
+
+.about .description-about p {
+  color: var(--color2);
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.img-about{
+    width: 50%;
+  margin-right: 70px;
+    display: inline-block;
+    transition: transform .8s ease-in-out;
+}
+.img-about:hover{
+    transform: rotate(3deg);
+}
+/*  end about*/
+
+/* Start Services*/
+
+.services{
+  padding-bottom: 80px;
+  padding-top: 80px;
+  background-size: 300% 300%;
+background-image: linear-gradient(-45deg, #686a6a 0%, black 20%, #686a6a 51%, black 100%);
+-webkit-animation: AnimateBG 25s ease infinite;
+        animation: AnimateBG 25s ease infinite;
+        margin-left:-8px;
+        margin-right:-8px;
+}
+
+.serv-cont{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.services .serv-cont h4{
+  font-size: 14px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: 200;
+text-align: center;
+}
+.services .serv-cont h2{
+  font-size: 35px;
+  color: white;
+  margin-bottom: 20px;
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+ 
+}
+
+.grid{
+  padding: 2rem;
+  display:grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+      gap: 2rem;
+}
+
+.cuadro{
+  padding-top:.5rem;
+  padding-bottom:.5rem;
+  padding-left:1rem;
+  padding-right:1rem;
+  border-width: .2px;
+  border: solid;
+  border-color: rgba(255, 255, 255, 0.075);
+  border-radius: 20px;
+  box-shadow: 1px 1px 4px .8px rgba(40, 40, 43, 0.2); 
+  backdrop-filter: blur(5px);
+}
+
+.grid .cuadro h2{
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+
+.grid .cuadro p{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 200;
+  color: white;
+}
+
+.grid .cuadro h1{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+  color:#ab8634;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/* End Services*/
+
+/* Start GetInTouch*/
+.GetintTouch{
+ 
+ /* background-image: url("http://joseantonioh17.sg-host.com/wp-content/uploads/2024/01/Diseno-sin-titulo.png");
+  background-size: contain;
+background-repeat: no-repeat;
+  background-position: center; */
+  padding-bottom: 60px;
+  padding-top: 50px;
+  background-color: #fdfdfd;
+ 
+}
+
+.content-Get{
+  
+  border: solid;
+  border-width: .5px;
+  border-radius: 25px;
+  border-color: #0000000a;
+  padding: 40px;
+  margin-bottom: 50px;
+  background-color: rgba(255, 255, 255, 0.397);
+  backdrop-filter: blur(10px);
+  box-shadow: 1px 1px 4px .8px rgba(40, 40, 43, 0.2); 
+ 
+}
+
+.content-Get h2{
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 35px;
+  padding-bottom: 5px;
+  
+}
+.content-Get p{
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
+  font-size: 18px;
+  padding-bottom: 15px;
+ 
+}
+
+
+
+/*.canvas {
+  cursor: none;
+  position: absolute;
+margin-top: -150px;
+  left: 0;
+  background: none;
+}*/
+/* End GetInTouch */
+
+/* Start Info*/
+/*.info{
+  padding-bottom: 0px;
+}
+.info-cont{
+  width: 1200px;
+  border-radius: 25px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: #ab8634;  
+  position: relative;
+  z-index: 1;
+  top:100px;
+}
+.info-grid{
+  padding: 1rem;
+  display:grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+      gap: 2rem;
+}
+.info-cuadro{
+  padding:2rem;
+  box-shadow: 2px 2px 4px 1px rgba(40, 40, 43, 0.2);
+}
+.info-cuadro h2{
+  font-size: 15px;
+}
+.info-cuadro h3{
+  font-size: 15px;
+}
+.info-cuadro p{
+  font-size: 15px;
+}*/
+/* End Info*/
+
+/* start footer*/
+.footer{
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background-size: 300% 300%;
+background-image: linear-gradient(-45deg, #686a6a 0%, black 20%, #686a6a 51%, black 100%);
+-webkit-animation: AnimateBG 25s ease infinite;
+        animation: AnimateBG 25s ease infinite;
+        margin-left:-8px;
+        margin-right:-8px;
+        margin-bottom:-15px;
+}
+.footer-cont{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.footer-grid{
+  padding: 2rem;
+  display:grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+      gap: 2rem;
+      margin-left: 100px;
+      margin-right: 100px;
+}
+
+.footer-img{
+  width: 65%;
+}
+
+.footer p{
+  color: white;
+  text-align: justify;
+  
+}
+
+.footer h2{
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.first , .third , .second{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+
+/* End footer*/
+
+@media screen and (min-width:360px) and (max-width:736px) {
+  /*Global */
+  .container {
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+      }
+      .wrapper {
+        flex-direction: column;
+      }
+
+  /* Start Header */
+  .header-cont{
+    width: auto;
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+  .header-grid{
+
+    grid-template-columns: repeat(1,minmax(0,1fr));
+    padding-left:10px;
+    padding-right: 10px;
+      
+  }
+.biso-header{
+  margin: 0 auto;
+top: 0px;
+background-color: #fdfdfd;
+margin-left: -8px;
+  margin-right: -8px;
+
+}
+
+.header-img{
+  width: 35%;
+}
+
+.btn-head{
+ text-align: center;
+ padding-bottom: 40px;
+}
+/* End Header */
+
+/* Start intro */
+.intro video {
+  width: 100%;
+}
+ .intro .description {
+  margin-right: 0;
+}
+.intro .description h2,h3 {
+text-align:center;
+}
+
+/* End intro */
+
+/* start about */
+.about .description-about h4 {
+
+  text-align: center;
+  
+}
+
+.about .description-about h2 {
+
+  text-align: center;
+  
+}
+.about .description-about p {
+
+  text-align: center;
+  
+}
+
+.img-about{
+    width: 82%;
+    display: inline-block;
+   margin-right: 0;
+
+}
+/*end about */
+
+/* start services */
+
+.services{
+  margin-left: -8px;
+  margin-right: -8px;
+
+}
+.serv-cont{
+width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.services .grid{
+
+  grid-template-columns: repeat(1,minmax(0,1fr));
+  padding-left:10px;
+  padding-right: 10px;
+    
+}
+.cuadro{
+   padding-left:10px;
+  padding-right:10px;
+}
+/* end services */
+
+/* start getintouch */
+.content-Get{
+padding: 30px;
+}
+.content-Get h2{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 35px;
+  margin:0;
+  padding-bottom: 15px;
+  padding-top: 25px;
+  
+}
+.content-Get p{
+  text-align: center;
+  font-size: 18px;
+  margin:0;
+  padding-bottom: 40px;
+}
+
+.btn-get{
+  text-align: center;
+  font-size: 18px;
+  margin:0;
+
+}
+
+/* end getintouch */
+
+/* startnfooter */
+
+.footer{
+  margin-left: -8px;
+  margin-right: -8px;
+  padding-bottom: 10px;
+}
+.footer-cont{
+width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+  .footer-grid{
+
+    grid-template-columns: repeat(1,minmax(0,1fr));
+    padding-left:10px;
+    padding-right: 10px;
+      
+  }
+
+  .footer-img{
+    width: 80%;
+    padding-bottom: 20px;
+  }
+  
+  .footer p{
+    color: white;
+    text-align: center;
+    
+  }
+  
+  .footer h2{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+  }
+  
+  .first , .third , .second{
+margin: 0;
+  }
+
+  .footer .footer-grid .second .content{
+    text-align: center;
+  }
+
+  br{
+    display: none;
+  }
+ 
+
+ 
+/* end footer */
+}
+
+@media (min-width: 1400px) {
+  .header-img{
+    width: 25%;
+  }
+}
+
+
+@-webkit-keyframes AnimateBG {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}
+
+@keyframes AnimateBG {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}
+
+
+/**************** Aviso de privacidad ****************/
+
+.aviso{
+  width: 1250px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-right: 75px;
+  padding-left: 75px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.aviso p{
+  color: black;
+}
+
+
+
+
+@media screen and (min-width:360px) and (max-width:736px) {
+  .aviso{
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .aviso p,ul{
+    text-align: center;
+  }
+}
