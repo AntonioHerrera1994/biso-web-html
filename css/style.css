@@ -662,6 +662,16 @@ margin: 0;
   color: black;
 }
 
+.terminos{
+  width: 1250px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-right: 75px;
+  padding-left: 75px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 
 
 
