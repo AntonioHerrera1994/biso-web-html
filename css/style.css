@@ -618,6 +618,10 @@ margin: 0;
   .header-img{
     width: 25%;
   }
+
+  .footer-img{
+    width: 50%;
+  }
 }
 
 
@@ -672,6 +676,15 @@ margin: 0;
   padding-bottom: 60px;
 }
 
+.derechos{
+  width: 1250px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-right: 75px;
+  padding-left: 75px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 
 
